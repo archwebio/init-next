@@ -28,6 +28,20 @@ Think of this repo as one of the examples in the [Next.JS's examples on Github](
 - Cypress: _E2E testing_ ([config](https://nextjs.org/docs/testing#cypress))
 - Husky: _Pre-commit hooks_ ([config](https://typicode.github.io/husky/#/?id=install))
 
+## Usage
+
+How to use this repo:
+
+1. Create in your desktop the folder for your project
+2. Open a terminal window inside this folder
+3. `Clone` this repo with the contents inside (don't forget the dot `.`)
+
+```sh
+git clone git@github.com:archwebio/init-next.git .
+```
+
+4. Install and test locally
+
 ## Installation and Beyond
 
 Scripts available
