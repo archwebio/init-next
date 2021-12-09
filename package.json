@@ -1,0 +1,59 @@
+{
+  "name": "init-next",
+  "version": "1.0.0",
+  "description": "Starter repo for a Next.JS application with usefull packages",
+  "author": "ArchWeb.io (https://archweb.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archwebio/init-next"
+  },
+  "bugs": "https://github.com/archwebio/init-next/issues",
+  "keywords": [
+    "next.js",
+    "eslint",
+    "prettier",
+    "starter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 16.13.0",
+    "npm": ">= 8.1.0",
+    "yarn": ">= 1.22.17"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "cypress": "cypress open",
+    "prepare": "husky install",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "qc": "yarn run format && yarn run check-format && yarn run lint && yarn run build",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/react": "^17.0.37",
+    "autoprefixer": "^10.4.0",
+    "cypress": "^9.1.1",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-testing-library": "^5.0.1",
+    "husky": "^7.0.4",
+    "jest": "^27.4.3",
+    "postcss": "^8.4.4",
+    "react-test-renderer": "^17.0.2",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.5.2"
+  }
+}

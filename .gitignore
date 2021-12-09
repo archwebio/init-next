@@ -1,0 +1,15 @@
+# security
+.env.local
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+.next
+
+# local
+.DS_Store
